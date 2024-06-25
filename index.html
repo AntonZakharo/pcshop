@@ -9,10 +9,10 @@
     <header>
             <a class="company-name">PCOMPANY</a>
             <div class="header-menu">
-                <a>Готовые PC</a>
-                <a>Скидки</a>
-                <a>Отзывы</a>
-                <a>FAQ</a>
+                <a href="#discounts" class="menu-element">Скидки</a>
+                <a href="#finishedpc" class="menu-element">Готовые PC</a>
+                <a class="menu-element">Отзывы</a>
+                <a href="#faq" class="menu-element">FAQ</a>
             </div>
                 <a class="header-menu header-telephone">+7 912 312 31 23</a>      
     </header>
@@ -30,8 +30,8 @@
             </div>
         </div>
         <img src="src/pcshop.png" id="img-about">
-        </main>
-        <div class="discounts"><p class="text-discount">Скидки</p></div>
+    </main>
+        <div class="discounts"><p class="text-discount" id="discounts">Скидки</p></div>
         <div class="body-discount">
             <div class="card">
                 <img src="src/discount1.png" class="card-image">
@@ -55,28 +55,32 @@
                 <p class="price">2255 руб</p>
             </div>
         </div>
-        <div class="discounts"><p class="text-discount">Готовые сборки</p></div>
+        <div class="discounts"><p class="text-discount" id="finishedpc">Готовые сборки</p></div>
+            
         <div class="body-discount">
-            <div class="card">
+            <div class="card card-pc">
                 <img src="src/pcimage1.png" class="card-image">
                 <p class="name-pc">Офисный компьютер</p>
                 <p class="caption">Компьютер подойдет под офисные и повседневные задачи</p>
                 <p class="price">29999 руб</p>
             </div>
-            <div class="card">
+            <div class="card card-pc">
                 <img src="src/pcimage2.png" class="card-image">
                 <p class="name-pc">Хороший компьютер</p>
                 <p class="caption">Компьютер точно не будет зависать и легко справится с задачей</p>
                 <p class="price">49999 руб</p>
             </div>
-            <div class="card">
+            <div class="card card-pc">
                 <img src="src/pcimage3.png" class="card-image">
                 <p class="name-pc">Мощный компьютер</p>
                 <p class="caption">Компьютер подойдет для гейминга и для других серьезных задач</p>
                 <p class="price">89999 руб</p>
             </div>
         </div>
-    <footer>
+        <div id="dark"><div id="pc-caption">
+            <h1>скрытая штука</h1>
+        </div></div>
+    <footer id="faq">
         <p class="faq-text">FAQ</p>
         <div class="faq">
             <div class="card">
@@ -94,5 +98,8 @@
         </div>
         <p class="faq-phone">Круглосуточная поддержка +7 912 312 31 23</p>
     </footer>
+    
+    <script src="script.js"></script>
+    
 </body>
 </html>
