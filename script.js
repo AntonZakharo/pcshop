@@ -12,7 +12,9 @@ pc_cards.forEach(element => {
     element.addEventListener('click', function(e) {
         e.preventDefault()
         dark = document.querySelector('#dark')
-        dark.style.display = 'block'
+        dark.style.display = 'flex'
+        body = document.querySelector('body')
+        body.style.overflow = 'hidden'
     }
     )
 })
