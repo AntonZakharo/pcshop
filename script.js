@@ -29,12 +29,13 @@ pc_cards.forEach(element => {
         let image_pc = element.querySelector('.pc-image').src
         let name_pc = element.querySelector('.name-pc').innerHTML
         let caption_pc = element.querySelector('.caption').innerHTML
+        caption_pc = caption_pc.split('  ')
         let price = element.querySelector('.price').innerHTML
         let name_pc_card = document.querySelector('.name-pc-card')
         let caption_card = document.querySelector('.caption-card')
         let image_card = document.querySelector('.image-card')
         name_pc_card.innerHTML = name_pc
-        caption_card.innerHTML = `Характеристики:<br> ${caption_pc}<br><br>Стоимость: <p class="price"> ${price} </p>`
+        caption_card.innerHTML = `Характеристики:<br> ${caption_pc_func(caption_pc)}<br><br>Стоимость: <p class="price"> ${price} </p>`
         image_card.src = image_pc
         
         let dark = document.querySelector('#dark')
