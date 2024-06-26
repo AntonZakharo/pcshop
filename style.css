@@ -139,7 +139,7 @@ footer {
     font-weight: bolder;
     font-size: 27px;
 }
-.card-image {
+.pc-image {
     margin: 0;
     height: 330px;
     width: 420px;
@@ -212,11 +212,12 @@ footer {
     font-size: 40px;
     font-weight: bold;
     color: black;
+    width: 500px;
 }
 
 .caption-card {
     font-size: 27px;
-    color: black;
+    color: rgb(0, 0, 0);
     margin-right: 5px;
     height: 90%;
     padding-top: 10px;
@@ -238,7 +239,9 @@ footer {
 }
 
 .div-table-card {
+    width: 400px;
     border-left: 3px solid black;
     display: flex;
     flex-direction: column;
+    text-align: left;
 }
