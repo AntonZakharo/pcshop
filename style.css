@@ -19,6 +19,7 @@ header {
     padding: 0px 0 0 10px;
     box-shadow: 0px 3px 7px 0px rgba(0, 0, 0, 0.5);
     background-color: #eafbff;
+    width: 100%;
 }
 
 main {
@@ -125,6 +126,7 @@ footer {
     height: 120px;
     box-shadow: 0px 3px 7px 0px rgba(0, 0, 0, 0.5);
     background-color: #eafbff;
+    width: 100%;
 }
 
 .text-discount {
@@ -135,6 +137,7 @@ footer {
     justify-content: space-around;
     text-align: center;
     flex-direction: row;
+    width: 100%;
 }
 
 .card {
@@ -182,6 +185,7 @@ footer {
     display: flex;
     justify-content: space-evenly;
     height: 550px;
+    width: 100%;
 }
 
 .faq-question {
@@ -259,6 +263,3 @@ footer {
     text-align: left;
 }
 
-.hidden-p {
-    display: none;
-}
